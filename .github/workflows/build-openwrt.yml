@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/zfdx123/Test-C312B-Openwrt
+  REPO_URL: https://github.com/zfdx123/Lede-C312B
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
