@@ -17,4 +17,9 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git extrapackages https://github.com/plasmolysis369/lede-extrapackages' >>feeds.conf.default
-echo "src-git openappfilter https://github.com/destan19/OpenAppFilter" >> feeds.conf.default
+#echo "src-git openappfilter https://github.com/destan19/OpenAppFilter" >> feeds.conf.default
+
+
+# CONFIG_PACKAGE_kmod-oaf=y
+# CONFIG_PACKAGE_appfilter=y
+# CONFIG_PACKAGE_luci-app-oaf=y
