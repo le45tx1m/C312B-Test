@@ -19,6 +19,8 @@
 #echo 'src-git extrapackages https://github.com/plasmolysis369/lede-extrapackages' >>feeds.conf.default
 #echo "src-git openappfilter https://github.com/destan19/OpenAppFilter" >> feeds.conf.default
 
+echo "src-git apps https://github.com/zfdx123/apps" >> feeds.conf.default
+
 
 # CONFIG_PACKAGE_kmod-oaf=y
 # CONFIG_PACKAGE_appfilter=y
